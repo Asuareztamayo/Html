@@ -1,0 +1,24 @@
+    .campo{
+        width: 600px;
+        display: block;
+        height: 300px;
+
+    }
+    .fila{
+        width: 600px;
+        height: 100px;
+        display: flex;
+    }
+    .cubo{
+        width: 90px;
+        height: 90px;
+        border: solid;
+        margin: 5px;
+        background-color: grey;
+    }
+    .cubo:hover{
+        background-color: green;
+    }
+    .mina:hover{
+        background-color: red;
+    }

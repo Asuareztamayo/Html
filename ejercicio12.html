@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+    <link rel="stylesheet" href="styleEj12.css">
+</head>
+
+<body>
+    <form action="http://kokinos.itemvirtual.com/prova" class="cuerpo">
+        <section class="datos">
+            <p>Nombre</p><input type="text" placeholder="Nombre" class="introDatos">
+        </section>
+        <section class="datos">
+            <p> Apellidos</p><input type="text" placeholder="Apellidos" class="introDatos">
+        </section>
+        <section class="datos">
+            <p>Dirección</p><input type="text" placeholder="Dirección" class="introDatos">
+        </section>
+        <section class="datos">
+            <p>Población</p><input type="text" placeholder="Población" class="introDatos">
+            <p>C.Postal</p><input type="text" placeholder="C.Postal" class="introDatos">
+        </section>
+        <section class="forma">
+            <section>
+                <input type="radio" name="edad" value="25">Menos de 25 Años <br>
+                <input type="radio" name="edad" value="26">26 a 40 años <br>
+                <input type="radio" name="edad" value="41" checked>41 a 65 años <br>
+                <input type="radio" name="edad" value="66"> Más de 66 años
+            </section>
+            <section>
+                <p>Teléfono móbil:</p>
+                <select>
+                    <option value="No tiene">No tiene</option>
+                    <option value="Android">Android</option>
+                    <option value="iPhone">iPhone</option>
+                    <option value="Otros">Otros</option>
+                </select>
+                <p>Vehículo:</p>
+                <select>
+                    <option value="No tiene">No tiene</option>
+                    <option value="Bici">Bici</option>
+                    <option value="Moto">Moto</option>
+                    <option value="Coche">Coche</option>
+                    <option value="Varios">Varios</option>
+                    <option value="Otros">Otros</option>
+                </select>
+            </section>
+        </section>
+        <button >Enviar</button>
+    </form>
+</body>
+
+</html>
